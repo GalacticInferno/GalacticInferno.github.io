@@ -43,8 +43,8 @@ h2 {
 	background-color: #136495;
 	text-align: center;
 	
-	margin-right: 50%;
-	margin-left: -5%;
+	/**margin-right: 50%;
+	margin-left: -5%;**/
 	padding-left: 7%;
 	
 	min-width: 100px;
@@ -58,11 +58,9 @@ h3 {
 }
 /* Paragraph */
 p {
-	font-size: 10px;
+	font-size: 14px;
 	line-height: 20px;
 	padding-bottom: 5%;
-	
-	border-bottom: 1px dotted #B54855;
 }
 /* Links */
 a {
@@ -88,6 +86,26 @@ a.hover {
 	border-top: 2px double #000000;
 }
 
+.socialwrapper {
+	margin: 0 auto;
+}
+
+.socialWrapper {
+	margin: 0 500px 0 0;
+}
+
+.emailTitle {
+	margin: 0 68% 0 -3%;
+	min-width: 256px;
+	max-width: 256px;
+}
+
+.socialTitle {
+	margin: 0 25% 0 -5%;
+	min-width: 256px;
+	max-width: 256px;
+}
+
 .footer {
 	border-bottom: 2px double #000000;
 }
@@ -99,4 +117,9 @@ a.hover {
 	
 	padding: .1% 0 .5% 0;
 	margin: 0 auto;
+}
+
+.sub-logo {
+	margin: 0 auto;
+	color: #B54855;
 }
