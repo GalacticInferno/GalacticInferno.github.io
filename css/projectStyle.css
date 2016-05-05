@@ -1,0 +1,122 @@
+/*
+Cody Beaty
+2016-05
+*/
+
+/* General CSS */
+/*
+	For the pallete I choose the colors of the Union Jack.
+	My family has a long history in the British Isles (I'm First gen. Canadian)
+	and I wanted those colors to be present in my website.
+	
+	Dark Blue: 		#06456B
+	Light Blue: 	#136495
+	Bone White:		#FFF9E8 	// I dont use
+	Light Red:		#B54855
+	Dark Red:		#912F3A
+	
+		pallate found at http://www.colourlovers.com/palette/2314242/Faded_Union_Jack
+*/
+html {
+	height: 100%;
+	background-color: #afafaf;
+}
+body {
+	margin: 0 auto;
+	width: 60%;
+	min-width: 600px;
+	
+	font-family: Arial, San-serif;
+	
+	border-right: 2px double #000000;
+	border-left: 2px double #000000;
+	border-bottom: 2px double #000000;
+	
+	background-color: #f8f8f8;
+}
+/* Headings */
+h1 {
+	
+}
+
+h2 {
+	background-color: #136495;
+	text-align: center;
+	
+	min-width: 100px;
+}
+
+h3 {
+	min-width: 100px;
+	text-align: center;
+	
+}
+/* Paragraph */
+p {
+	font-size: 10px;
+	line-height: 20px;
+	padding-bottom: 5%;
+}
+/* Links */
+a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+	
+	margin: 20px;
+}
+
+a.hover {
+	text-decoration: underline;
+}
+/* External Structure */
+.wrapper {
+	width: 99%;
+	padding: 1% 0;
+	margin: 0 auto;
+}
+
+.introSection {
+	padding: 1% 0;
+	border-top: 2px double #000000;
+}
+
+.holderWrapper {
+	background-color: #eeeeee;
+}
+
+.contentWrapperOne {
+	margin: 2px 70% 0 2%;
+}
+.contentWrapperTwo {
+	margin: -228px 35% 0 35%;
+}
+.contentWrapperThree {
+	margin: -229px 2% 0 70%;
+}
+
+.titleWrapper {
+	background-color: #222222;
+	margin: 0 0 0 0;
+}
+
+.imageWrapper {
+	min-width: 132px;
+	max-width: 132px;
+	margin: 0 auto;
+}
+
+.descWrapper {
+}
+.footer {
+	border-bottom: 2px double #000000;
+}
+
+/** Internal Structure **/
+.navigationHome {
+	border-top: 3px double #000000;
+	border-bottom: 3px double #000000;
+	
+	padding: .1% 0 .5% 0;
+	margin: 0 auto;
+}

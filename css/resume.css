@@ -1,0 +1,102 @@
+/*
+Cody Beaty
+2016-05
+*/
+
+/* General CSS */
+/*
+	For the pallete I choose the colors of the Union Jack.
+	My family has a long history in the British Isles (I'm First gen. Canadian)
+	and I wanted those colors to be present in my website.
+	
+	Dark Blue: 		#06456B
+	Light Blue: 	#136495
+	Bone White:		#FFF9E8 	// I dont use
+	Light Red:		#B54855
+	Dark Red:		#912F3A
+	
+		pallate found at http://www.colourlovers.com/palette/2314242/Faded_Union_Jack
+*/
+html {
+	height: 100%;
+	background-color: #afafaf;
+}
+body {
+	margin: 0 auto;
+	width: 60%;
+	min-width: 600px;
+	
+	font-family: Arial, San-serif;
+	
+	border-right: 2px double #000000;
+	border-left: 2px double #000000;
+	border-bottom: 2px double #000000;
+	
+	background-color: #f8f8f8;
+}
+/* Headings */
+h1 {
+	
+}
+
+h2 {
+	background-color: #136495;
+	text-align: center;
+	
+	margin-right: 50%;
+	margin-left: -5%;
+	padding-left: 7%;
+	
+	min-width: 100px;
+}
+
+h3 {
+	margin: 0% 20% 0 0%;
+	min-width: 100px;
+	text-align: left;
+	
+}
+/* Paragraph */
+p {
+	font-size: 10px;
+	line-height: 20px;
+	padding-bottom: 5%;
+	
+	border-bottom: 1px dotted #B54855;
+}
+/* Links */
+a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+	
+	margin: 20px;
+}
+
+a.hover {
+	text-decoration: underline;
+}
+/* External Structure */
+.wrapper {
+	width: 99%;
+	padding: 1% 0;
+	margin: 0 auto;
+}
+
+.introSection {
+	padding: 1% 0;
+	border-top: 2px double #000000;
+}
+
+.footer {
+	border-bottom: 2px double #000000;
+}
+
+/** Internal Structure **/
+.navigationHome {
+	border-top: 3px double #000000;
+	border-bottom: 3px double #000000;
+	
+	padding: .1% 0 .5% 0;
+	margin: 0 auto;
+}
