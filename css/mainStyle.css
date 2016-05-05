@@ -43,17 +43,12 @@ h2 {
 	background-color: #136495;
 	text-align: center;
 	
-	margin-right: 50%;
-	margin-left: -5%;
-	padding-left: 7%;
-	
 	min-width: 100px;
 }
 
 h3 {
-	margin: 0% 20% 0 0%;
 	min-width: 100px;
-	text-align: left;
+	text-align: center;
 	
 }
 /* Paragraph */
@@ -61,8 +56,6 @@ p {
 	font-size: 10px;
 	line-height: 20px;
 	padding-bottom: 5%;
-	
-	border-bottom: 1px dotted #B54855;
 }
 /* Links */
 a {
@@ -88,15 +81,37 @@ a.hover {
 	border-top: 2px double #000000;
 }
 
-.programShowcase {
-	margin: 1% 2% 0 2%;
-	padding: 1% 0;
-	border-bottom: 1px solid #136495;
+.showcase {
+	margin: 0 auto;
 }
-.artShowcase {
-	margin: 1% 2% 0 2%;
-	padding: 1% 0;
-	border-bottom: 1px solid #136495;
+
+.holderWrapper {
+	min-height: 230px;
+}
+
+.holderTitleWrapper {
+	text-align: center-left;
+	margin: 0 65% 0 -2%;
+	min-width: 280px;
+}
+
+.contentWrapper {
+	margin-bottom: 100px;
+}
+.contentTitle {
+	margin: 0 30% 0 280px;
+	text-align: left;
+	border-bottom: 1px solid #912F3A;
+	min-width: 200px;
+}
+.imageWrapper {
+	min-width: 256px;
+	max-width: 256px;
+	margin: -2% 2%;
+}
+
+.discWrapper {
+	margin: -150px 2% 5% 280px;
 }
 
 .footer {
@@ -110,17 +125,4 @@ a.hover {
 	
 	padding: .1% 0 .5% 0;
 	margin: 0 auto;
-}
-
-.imageWrapper {
-	min-width: 132px;
-	max-width: 132px;
-}
-
-.imageShowcase {
-	border: 2px solid #912F3A;
-}
-
-.contentWrapper {
-	margin: -13% 0 0 134px;
 }
