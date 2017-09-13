@@ -1,2 +1,2 @@
 # GalacticInferno.github.io
-website
+playing around with githubs "hosting"
